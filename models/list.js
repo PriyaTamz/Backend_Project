@@ -1,16 +1,16 @@
 const { default: mongoose } = require("mongoose");
 
 const listSchema = new mongoose.Schema({
-    "firstName": {
+    "FirstName": {
         type: String,
         required: [true, 'First name is rquired'],
         trim: true
     },
-    "phone": {
+    "Phone": {
         type: Number,
         required: [true, 'Phone number is rquired']
     },
-    "notes": {
+    "Notes": {
         type: String,
         trim: true
     },
